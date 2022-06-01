@@ -1,0 +1,138 @@
+body{
+    background-color: gray;
+}
+.topbox{
+    
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 15px;
+    width: 33%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 4px 4px purple;
+
+    
+}
+.top{
+    color: black;
+    text-shadow:2px 2px red;
+    font-size: large;
+    font-weight: bold;
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 0%;
+}
+.fixedbox{
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    background-color: greenyellow;
+    border: 5px solid red;
+    border-radius: 15px;
+    color: red;
+    text-shadow: 1px 1px purple;
+    box-shadow: 4px 4px purple;
+    position: fixed;
+    bottom: 0;
+}
+.fixedbox .leftpart{
+    font-weight: bold;
+    width: 50%;
+    float: left;
+    display: inline;
+}
+.fixedbox .rightpart{
+    width: 40%;
+    display: inline;
+    float: right;
+}
+.main{
+    border: 5px solid green;
+    margin-top: 3px;
+    height: 500px;
+}
+.box{
+    border: 5px solid red;
+    border-radius: 5px;
+    box-shadow: 4px 4px purple;
+    width: 20%;
+    height: 35%;
+    float: left;
+    background-color: white;
+    color: darkblue;
+    text-shadow: 1px 1px purple;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: auto;
+    font-size: larger;
+
+}
+.first{
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.second{
+   margin-left: 25%;
+   margin-bottom: 5%;
+   margin-top: 2%;
+}
+.second img{
+    height: 80%;
+    width: 90%;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 7%
+}
+.third{
+    margin-right: 25%;
+    margin-left: 4%;
+}
+.forth{
+    margin-left: 25%;
+}
+.submitbutton{
+    background-color: orangered;
+    color: darkblue;
+    text-shadow: 1px 1px purple;
+    border-radius: 20px;
+}
+label{
+    font-size: medium;
+}
+.welcome{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    border: 5px solid purple;
+    background-color: green;
+}
+.heading{
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px purple;
+    border-radius: 20px;
+}
+.boxheading{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+.smallbox{
+    width: 48%;
+    float: left;
+    margin: 1%;
+    font-style: italic;
+    background-color: rgb(205, 205, 101);
+}
+.bigbox{
+    margin: 1%;
+    margin-top: 23%;
+    background-color: rgb(205, 205, 101);
+}
+
